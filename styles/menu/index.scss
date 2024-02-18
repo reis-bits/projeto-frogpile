@@ -1,1 +1,78 @@
-@use '../abstract/root'
+@use '../abstract/root';
+
+@media(min-width: 940px) {
+        main {
+            margin: auto;
+            width: 80%;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 1.6rem;
+            h1 {
+                font-size: 6rem;
+            }
+            p {
+                font-size: 2.4rem;
+            }
+            button {
+                width: 380px;
+                height: 80px;
+                border: 0px transparent;
+                border-radius: 80px;
+                background: black;
+                a {
+                    font-size: 2rem;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        img {
+            width: 400px;
+        }
+    }  
+}
+@media(max-width:940px){
+    main {
+        margin: auto;
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            h1 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+            button {
+                width: 180px;
+                height: 40px;
+                border: 0px transparent;
+                border-radius: 80px;
+                background: black;
+                a {
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        img {
+            width: 240px;
+        }
+    }  
+}
+    

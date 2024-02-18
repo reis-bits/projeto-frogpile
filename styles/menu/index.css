@@ -1,1 +1,125 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+  font-family: "Outfit", sans-serif;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+@media (min-width: 940px) {
+  main {
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  main .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  main .text h1 {
+    font-size: 6rem;
+  }
+  main .text p {
+    font-size: 2.4rem;
+  }
+  main .text button {
+    width: 380px;
+    height: 80px;
+    border: 0px transparent;
+    border-radius: 80px;
+    background: black;
+  }
+  main .text button a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+  }
+  main img {
+    width: 400px;
+  }
+}
+@media (max-width: 940px) {
+  main {
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .text h1 {
+    font-size: 3rem;
+  }
+  main .text p {
+    font-size: 1.2rem;
+  }
+  main .text button {
+    width: 180px;
+    height: 40px;
+    border: 0px transparent;
+    border-radius: 80px;
+    background: black;
+  }
+  main .text button a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  main img {
+    width: 240px;
+  }
+}/*# sourceMappingURL=index.css.map */
