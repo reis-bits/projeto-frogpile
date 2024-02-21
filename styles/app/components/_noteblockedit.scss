@@ -24,7 +24,7 @@
                 padding: 0.8rem;
                 font-size: 2.6rem;
                 font-weight: 400;
-                white-space: nowrap;
+                white-space: wrap;
                 resize: vertical;
             }
         }
@@ -33,7 +33,7 @@
             border-radius: 0.8rem;
             padding: 0.8rem;
             font-weight: 400;
-            white-space: nowrap;
+            white-space: wrap;
             resize: vertical;
         }
     }
