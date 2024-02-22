@@ -18,23 +18,22 @@ main {
     p {
         font-size: 1rem;
     }
-    button {
-        width: 140px;
-        height: 30px;
-        border: 0px transparent;
-        border-radius: 80px;
-        background: black;
         a {
+            width: 240px;
+            height: 30px;
+            padding: 20px 20px 20px 30px;
+            background: black;
+            border-radius: 80px;
             font-size: 1rem;
             text-decoration: none;
             color: white;
+            box-sizing: content-box;
         }
     }
     }
     img {
     width: 120px;
     }
-}  
 
 footer {
     height: 70px;
@@ -66,21 +65,15 @@ footer {
             p {
                 font-size: 2.4rem;
             }
-            button {
-                width: 380px;
-                height: 80px;
-                border: 0px transparent;
-                border-radius: 80px;
-                background: black;
-                a {
+            a {
                     font-size: 2rem;
                     text-decoration: none;
                     color: white;
-                }
+            }
             }
         }
         img {
             width: 400px;
         }
     }  
-}
+
