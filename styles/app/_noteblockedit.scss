@@ -1,44 +1,4 @@
 .app-form-add-noteblock {
-    padding: 2rem;
-    border-radius: 0.8rem;
-    background: var(--fundo-card);
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
-    background: #E9E9ED;
-    width: 100%;
-    margin-top: 2rem;
-    .app-form-field {
-        width: 100%;
-        display: flex;
-        flex-flow: column wrap;
-        gap: 1rem;
-        .app-form-noteblock-title {
-            display: block;
-            width: 100%;
-            .app-form-title-area {
-                line-height: 150%;
-                width: 100%;
-                border-radius: 0.8rem;
-                padding: 0.8rem;
-                font-size: 2.6rem;
-                font-weight: 400;
-                white-space: wrap;
-                resize: vertical;
-            }
-        }
-        .app-form-text-area {
-            font-size: 1rem;
-            line-height: 150%;
-            width: 100%;
-            border-radius: 0.8rem;
-            padding: 0.8rem;
-            font-weight: 400;
-            white-space: wrap;
-            resize: vertical;
-            
-        }
-    }
+    background-color: #E9E9ED;
+    border-radius: 10px;
 }
-
