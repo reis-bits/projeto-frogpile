@@ -48,80 +48,47 @@ input {
   border-radius: 0;
 }
 
-main {
-  margin: auto;
-  width: 60%;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.index-content img {
+  width: 100%;
 }
-main .text {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
+
+.index-text h1 {
+  font-size: 3.5rem;
 }
-main .text h1 {
-  font-size: 2.2rem;
-}
-main .text p {
+.index-text p {
   font-size: 1rem;
 }
-main .text a {
-  width: 240px;
-  height: 30px;
-  padding: 20px 20px 20px 30px;
-  background: black;
-  border-radius: 80px;
+.index-text a {
+  width: 180px;
   font-size: 1rem;
-  text-decoration: none;
-  color: white;
-  box-sizing: content-box;
 }
 
-img {
-  width: 120px;
-}
-
-footer {
-  height: 70px;
-  background: black;
-  padding: 20px;
-  color: white;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (min-width: 940px) {
-  main {
-    margin: auto;
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 768px) {
+  .index-content img {
+    width: 40%;
   }
-  main .text {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
+  .index-text h1 {
+    font-size: 4rem;
   }
-  main .text h1 {
+  .index-text p {
+    font-size: 1.5rem;
+  }
+  .index-text a {
+    width: 280px;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .index-text h1 {
     font-size: 6rem;
   }
-  main .text p {
-    font-size: 2.4rem;
-  }
-  main .text a {
+  .index-text p {
     font-size: 2rem;
-    text-decoration: none;
-    color: white;
   }
-  img {
-    width: 400px;
+  .index-text a {
+    font-size: 2rem;
+    padding-top: 3px;
+    height: 60px;
+    width: 380px;
   }
 }/*# sourceMappingURL=index.css.map */

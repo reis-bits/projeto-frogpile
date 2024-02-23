@@ -1,79 +1,58 @@
 @use '../abstract/root';
 
-main {
-    margin: auto;
-    width: 60%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    .text {
-        display: flex;
-        flex-direction: column;
-        gap: 1.4rem;
+.index-content {
+    img {
+        width: 100%;
+    }
+}
+
+.index-text {
     h1 {
-        font-size: 2.2rem;
+        font-size: 3.5rem;
     }
     p {
         font-size: 1rem;
     }
-        a {
-            width: 240px;
-            height: 30px;
-            padding: 20px 20px 20px 30px;
-            background: black;
-            border-radius: 80px;
-            font-size: 1rem;
-            text-decoration: none;
-            color: white;
-            box-sizing: content-box;
-        }
+    a {
+        width: 180px;
+        font-size: 1rem;
     }
-    }
-    img {
-    width: 120px;
-    }
-
-footer {
-    height: 70px;
-    background: black;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-@media(min-width: 940px) {
-        main {
-            margin: auto;
-            width: 80%;
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            .text {
-                display: flex;
-                flex-direction: column;
-                gap: 1.6rem;
-            h1 {
-                font-size: 6rem;
-            }
-            p {
-                font-size: 2.4rem;
-            }
-            a {
-                    font-size: 2rem;
-                    text-decoration: none;
-                    color: white;
-            }
-            }
-        }
+@media(min-width:768px) {
+    .index-content {
         img {
-            width: 400px;
+            width: 40%;
         }
-    }  
+    }
 
+    .index-text {
+        h1 {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 1.5rem
+        }
+        a {
+            width: 280px;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media(min-width:1440px) {
+    .index-text {
+        h1 {
+            font-size: 6rem;
+        }
+        p {
+            font-size: 2rem;
+        }
+        a {
+            font-size: 2rem;
+            padding-top: 3px;
+            height: 60px;
+            width: 380px;
+        }
+    }
+}
