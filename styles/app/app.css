@@ -64,4 +64,13 @@ header nav .linha {
 .app-form-add-noteblock {
   background-color: #E9E9ED;
   border-radius: 10px;
+}
+
+.noteblock {
+  border: 0px transparent;
+  border-radius: 10px;
+  width: 100px;
+  height: 120px;
+  padding: 10px;
+  background: #E9E9ED;
 }/*# sourceMappingURL=app.css.map */
